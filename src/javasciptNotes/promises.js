@@ -22,6 +22,7 @@ const PromiseComponent = () => {
     });
 
     pr.then((result) => setData(result)).catch((error) => setError(error.message));
+    
   }, []);
 
   return (

@@ -8,6 +8,7 @@ import UseReducerComp from "./javasciptNotes/useReducer"
 import UseLayoutEffect from './javasciptNotes/useLayoutEffect';
 import UseMemo from './javasciptNotes/useMemo';
 import UseCallback from './javasciptNotes/useCallback';
+import Signup from './screens/signup';
 export const userData = createContext()
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
       <UseRef/>
       <UseReducerComp/>
       <UseLayoutEffect/> */}
-      <UseMemo/>
-      <UseCallback/>
+      {/* <UseMemo/> */}
+      <Signup/>
     </div>
   );
 }
